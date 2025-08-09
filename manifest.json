@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Hide YouTube Comments",
+    "version": "1.0",
+    "description": "YouTubeのコメントを非表示にする拡張機能です。",
+    "content_scripts": [
+        {
+            "matches": ["*://www.youtube.com/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "icons": {
+        "128": "CommentHiderForYoutube.png"
+    }
+}
