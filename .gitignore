@@ -1,0 +1,18 @@
+# OSやエディタの一時ファイルや隠しファイルを除外
+Thumbs.db
+.DS_Store
+
+# WindowsのZone.Identifier（ダウンロード情報の別ファイル）
+*.png:Zone.Identifier
+*.js:Zone.Identifier
+*.json:Zone.Identifier
+
+# node_modules（もし使ってたら）
+node_modules/
+
+# ビルド生成物（もしあれば）
+dist/
+build/
+
+# vscode
+.vscode/
